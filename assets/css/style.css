@@ -1,0 +1,155 @@
+body {
+    background-image: url("../images/bk.png");
+    background-repeat: repeat;
+    margin:0;
+}
+
+#header_wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+#body_wrapper {
+
+}
+
+#body_left {
+
+	background-color: white;
+	width: 650px;
+	margin-left: 100px; margin-top: 70px; margin-bottom: 70px; 
+	background-color: white; 
+	/*height: 100%;*/
+	float: left;
+	padding: 10px;
+}
+
+#body_right {
+
+	background-color: white;
+	width: 270px;
+	margin-left: 50px; margin-top: 70px; margin-bottom: 70px;
+	background-color: white; 
+	/*height: 100%;*/
+	float: left !important;
+	padding: 10px;
+	vertical-align: top !important; 
+	display: inline-block;
+
+}
+
+#footer_green {
+	background-color: #4aaaa5;
+	height: 10px;
+
+}
+
+#footer_grey {
+	background-color: #666666;
+	height: 115px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
+}
+
+#logo_wrapper {
+	margin-left: 100px; margin-top: 10px;
+	background-color: #4aaaa5; 
+	/*height: 100%;*/
+	float: left;
+		padding: 10px;
+	color: white;
+}
+
+.side_image {
+	width: 100%;
+}
+
+.portfolio_1 {
+	width: 40%;
+	padding: 30px;
+	float: left;
+}
+.portfolio_2 {
+	width: 40%;
+	padding: 30px;
+	float: right;
+}
+.portfolio_3 {
+	width: 40%;
+	padding: 30px;
+	float: left;
+}
+.portfolio_4 {
+	width: 40%;
+	padding: 30px;
+	float: right;
+}
+.portfolio_5 {
+	width: 40%;
+	padding: 30px;
+	float: left;
+}
+input {
+
+}
+.submit_button {
+	background-color: #4aaaa5;
+	width: 130px;
+	height: 50px;
+}
+.message_box {
+	
+}
